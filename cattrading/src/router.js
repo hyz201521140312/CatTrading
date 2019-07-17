@@ -7,8 +7,13 @@ import Knowledge from './views/Knowledge.vue'
 import Variety from './views/Variety.vue'
 import Contactus from './views/Contactus.vue'
 import Aboutus from './views/Aboutus.vue'
-import Reg from './views/Reg.vue'
-import Login from './views/Login.vue'
+import reg from './views/reg.vue'
+import login from './views/login.vue'
+import adminlogin from './views/adminlogin.vue'
+import adminhome from './views/adminhome.vue'
+import userhome from './views/userhome.vue'
+import Catdetail from './views/Catdetail.vue'
+import firstpage from './components/style_tag/first_page.vue'
 
 
 
@@ -51,13 +56,39 @@ export default new Router({
     {
       path: '/reg',
       name: 'reg',
-      component: Reg
+      component: reg
     },
     {
       path: '/login',
       name: 'login',
-      component: Login
+      component: login
+    },
+    {
+      path: '/adminlogin',
+      name: 'adminlogin',
+      component: adminlogin
+    },
+    {
+      path: '/userhome',
+      name: 'userhome',
+      component: userhome
+    },
+    {
+      path:'/firstpage',
+      name:'firstpage',
+      component:firstpage
+    },
+     {
+      path: '/catdetail',
+      name: 'catdetail',
+      component: Catdetail
+    },
+     {
+      path: '/adminhome',
+      name: 'adminhome',
+      component: adminhome
     }
+
 
     
   ]

@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/my/my",
+    "pages/des/des",
+    "pages/set/set"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarTitleText": "华清远见",
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#c0c0c0",
+    "backgroundColor": "#333"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "home",
+        "iconPath": "ico/home.png",
+        "selectedIconPath": "ico/homes.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "my"
+
+      },
+      {
+        "pagePath": "pages/des/des",
+        "text": "des",
+        "iconPath": "ico/m1.png",
+        "selectedIconPath": "ico/m5.png"
+      },
+      {
+        "pagePath": "pages/set/set",
+        "text": "text",
+        "iconPath": "ico/local.png",
+        "selectedIconPath": "ico/localselected.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,160 @@
+
+<text></text>
+<button bindtap="con1">打印</button>
+
+<scroll-view class="mysrc" scroll-x="true" scroll-left="1rpx">
+  <view class="mysrc_son"> 
+ <view bindtap="one_clicked">科技1</view>
+  <view  bindtap="two_clicked">科技2</view>
+   <view>科技3</view>
+    <view>科技4</view>
+     <view>科技5</view>
+    <view>科技6</view>
+   <view>科技</view>
+   <view>科技</view>
+    <view>科技</view>
+     <view>科技</view>
+  </view>
+</scroll-view>
+
+
+
+
+<view class="clear"></view>
+<view class="{{one}}">
+
+<view class="food">
+<image src="food/2.jpg"></image>
+<text>汉堡1</text>
+</view>
+
+<view class="food">
+<image src="food/3.jpg"></image>
+<text>鸡公煲</text>
+</view>
+
+
+
+<view class="food">
+<image src="food/4.jpg"></image>
+<text>6666</text>
+</view>
+
+
+
+<view class="food">
+<image src="food/5.jpg"></image>
+<text>6666</text>
+</view>
+
+
+<view class="food">
+<image src="food/6.jpg"></image>
+<text>6666</text>
+</view>
+
+
+<view class="food">
+<image src="food/7.jpg"></image>
+<text>6666</text>
+</view>
+
+
+<view class="food">
+<image src="food/8.jpg"></image>
+<text>6666</text>
+</view>
+
+
+<view class="food">
+<image src="food/10.jpg"></image>
+<text>6666</text>
+</view>
+
+
+<view class="food">
+<image src="food/2.jpg"></image>
+<text>6666</text>
+</view>
+
+
+<view class="food">
+<image src="food/2.jpg"></image>
+<text>6666</text>
+</view>
+
+
+
+
+</view>
+
+<view class="clear"></view>
+
+
+
+<view class="{{two}}">
+
+<view class="food">
+<image src="food/2.jpg"></image>
+<text>汉堡2</text>
+</view>
+
+<view class="food">
+<image src="food/3.jpg"></image>
+<text>鸡公煲</text>
+</view>
+
+
+
+<view class="food">
+<image src="food/4.jpg"></image>
+<text>6666</text>
+</view>
+
+
+
+<view class="food">
+<image src="food/5.jpg"></image>
+<text>6666</text>
+</view>
+
+
+<view class="food">
+<image src="food/6.jpg"></image>
+<text>6666</text>
+</view>
+
+
+<view class="food">
+<image src="food/7.jpg"></image>
+<text>6666</text>
+</view>
+
+
+<view class="food">
+<image src="food/8.jpg"></image>
+<text>6666</text>
+</view>
+
+
+<view class="food">
+<image src="food/10.jpg"></image>
+<text>6666</text>
+</view>
+
+
+<view class="food">
+<image src="food/2.jpg"></image>
+<text>6666</text>
+</view>
+
+
+<view class="food">
+<image src="food/2.jpg"></image>
+<text>6666</text>
+</view>
+
+
+
+
+</view>

@@ -1,4 +1,4 @@
-# cattrading
+# cat-trading
 
 ## Project setup
 ```

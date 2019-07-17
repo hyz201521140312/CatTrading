@@ -1,0 +1,55 @@
+/* pages/home/home.wxss */
+.clear{
+  clear: both;
+}
+
+.mysrc{
+    width: 750rpx;
+}
+.mysrc_son{
+  width: 2000rpx;
+  height: 60rpx;
+  background-color: yellow;
+  line-height: 60rpx;
+  display: flex;
+
+
+}
+
+.mysrc_son view{
+  width: 100rpx;
+  height:  60rpx;
+
+}
+
+.food{
+   float: left;
+   width: 120rpx;
+   height: 160rpx;
+   /* background-color: red; */
+   margin-top: 20rpx; 
+   margin-left:26rpx;
+   text-align: center;
+
+}
+
+.food image{
+   width: 100rpx;
+   height: 100rpx;
+   border-radius:50%; 
+}
+.food text{
+   width: 100rpx;
+   height: 20rpx;
+   /* font-size:10rpx;  */
+
+}
+
+
+
+.show{
+  display: block;
+}
+.hide{
+  display: none;
+}

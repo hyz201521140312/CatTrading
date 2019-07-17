@@ -1,0 +1,21 @@
+<!--pages/set/set.wxml-->
+<text>pages/set/set.wxml</text>
+
+
+<swiper autoplay="true" current="2" interval="2000" indicator-color="blue" indicator-active-color="red" duration="1000" display-multiple-items="2"  next-margin="10rpx">
+<swiper-item>
+1
+</swiper-item>
+<swiper-item>
+2
+</swiper-item>
+
+<swiper-item>
+3
+</swiper-item>
+
+<swiper-item>
+4
+</swiper-item>
+</swiper>
+

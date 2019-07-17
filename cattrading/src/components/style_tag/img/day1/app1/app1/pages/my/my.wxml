@@ -1,0 +1,22 @@
+<!--pages/my/my.wxml-->
+
+<scroll-view class="sr" scroll-with-animation scroll-x scroll-into-view="{{curenetid}}">
+<view class="son">
+
+<view class="son_son" id="one">
+<view class="btn" bindtap="gotwo"></view>
+111
+</view>
+
+<view class="son_son" id="two">
+<view class="btn"  bindtap="gothree"></view>
+222
+</view>
+
+<view class="son_son" id="three">
+<view class="btn" ></view>
+333
+</view>
+
+</view>
+</scroll-view>
